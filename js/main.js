@@ -45,8 +45,7 @@ for (let i = 0; i < infoDipendenti.length; i++) {
   }
   for (let i = 0; i < infoDipendenti.length; i++) {
     
-  
-  document.getElementById("cards").innerHTML +=`
+   document.getElementById("cards").innerHTML +=`
    <div class="col col-sm-6 col-md-6 col-lg-4">
      <img src="${infoDipendenti[i].image}" alt="immagine dipendente" class="card-img-top">
          <div class="card-body">
